@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="pallet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs22/1.5.0.0/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <parentFile xmlFilename="$pdlcdir/premiumExpansion/objects/pallets/soupCansPallet/soupCansPallet.xml">
+        <attributes>
+            <!-- update path -->
+            <set path="vehicle.base.filename" value="$pdlcdir/premiumExpansion/objects/pallets/soupCansPallet/soupCansPallet.i3d"/>
+
+            <!-- update weight -->
+            <set path="vehicle.base.components#maxMass" value="100"/>
+            <set path="vehicle.base.components.component(0)#mass" value="100"/>
+
+            <!-- update capacity -->
+            <set path="vehicle.fillUnit.fillUnitConfigurations.fillUnitConfiguration(0).fillUnits.fillUnit(0)#capacity" value="5000"/>
+            <set path="vehicle.dischargeable.dischargeNode(0)#emptySpeed" value="2000"/>
+        </attributes>
+    </parentFile>
+
+    <!-- ONLY FOR ICON GENERATION -->
+    <storeData>
+        <name>soupCansPallet</name>
+        <image>store_soupCansPallet.dds</image>
+        <brand>LIZARD</brand>
+        <category>pallets</category>
+    </storeData>
+</vehicle>

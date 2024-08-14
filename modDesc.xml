@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="80">
+    <author>GMNGjoy</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Larger Capacity DLC Pallets</en>
+        <de>Larger Capacity DLC Pallets</de>
+    </title>
+    <description>
+        <en>
+<![CDATA[Alongside the Larger Capacity Pallets mod on ModHub, this mod adds all the pallets for the Platinum and Premium DLCs. All pallets are 5000 liters and weigh 100kg. You're welcome.
+
+For license & feedback, please visit: https://github.com/GMNGjoy/FS22_LargerCapacityPallets_DLC]]>
+		</en>
+        <de>
+<![CDATA[Neben dem Mod „Paletten mit größerer Kapazität“ auf ModHub fügt dieser Mod alle Paletten für die Platinum- und Premium-DLCs hinzu. Alle Paletten haben ein Fassungsvermögen von 5000 Litern und wiegen 100 kg. Gern geschehen.
+
+Besucht für Lizenz & Feedback bitte https://github.com/GMNGjoy/FS22_LargerCapacityPallets_DLC]]>
+        </de>
+    </description>
+    <iconFilename>icon_largerCapacityPalletsDLC.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <fillTypes filename="fillTypes.xml"/>
+
+	<storeItems>
+        <!-- straw harvest -->
+
+        <!-- platinum -->
+        <storeItem xmlFilename="pallets/armoirePallet.xml" />
+        <storeItem xmlFilename="pallets/barrelPallet.xml" />
+        <storeItem xmlFilename="pallets/bathtubPallet.xml" />
+        <storeItem xmlFilename="pallets/birdHousePallet.xml" />
+        <storeItem xmlFilename="pallets/bowlsPallet.xml" />
+        <storeItem xmlFilename="pallets/bucketPallet.xml" />
+        <storeItem xmlFilename="pallets/cartonRollPallet.xml" />
+        <storeItem xmlFilename="pallets/catTreePallet.xml" />
+        <storeItem xmlFilename="pallets/chairPallet.xml" />
+        <storeItem xmlFilename="pallets/dogHousePallet.xml" />
+        <storeItem xmlFilename="pallets/easelPallet.xml" />
+        <storeItem xmlFilename="pallets/floorTilesPallet.xml" />
+        <storeItem xmlFilename="pallets/metalPallet.xml" />
+        <storeItem xmlFilename="pallets/paperRollPallet.xml" />
+        <storeItem xmlFilename="pallets/pepperGrinderPallet.xml" />
+        <storeItem xmlFilename="pallets/pictureFramePallet.xml" />
+        <storeItem xmlFilename="pallets/planksPallet.xml" />
+        <storeItem xmlFilename="pallets/prefabWallPallet.xml" />
+        <storeItem xmlFilename="pallets/shingleGenericPallet.xml" />
+        <storeItem xmlFilename="pallets/staircaseRailingPallet.xml" />
+        <storeItem xmlFilename="pallets/stonePallet.xml" />
+        <storeItem xmlFilename="pallets/tablePallet.xml" />
+        <storeItem xmlFilename="pallets/woodBeamPallet.xml" />
+        <storeItem xmlFilename="pallets/fillablePallet.xml" />
+
+        <!-- premium -->
+        <storeItem xmlFilename="pallets/potatoChipsPallet.xml" />
+        <storeItem xmlFilename="pallets/preservedFoodBeetRootPallet.xml" />
+        <storeItem xmlFilename="pallets/preservedFoodCarrotsPallet.xml" />
+        <storeItem xmlFilename="pallets/preservedFoodParsnipPallet.xml" />
+        <storeItem xmlFilename="pallets/soupCansPallet.xml" />
+        <storeItem xmlFilename="pallets/vegetablesPallet.xml" />
+    </storeItems>
+
+    <dependencies>
+        <depedency>pdlc_forestryPack</depedency>
+        <depedency>pdlc_premiumExpansion</depedency>
+    </dependencies>
+
+    <extraSourceFiles>
+        <sourceFile filename="pdlcFilename.lua" />
+    </extraSourceFiles>
+
+</modDesc>

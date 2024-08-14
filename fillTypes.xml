@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+	<fillTypes>
+        <fillType name="ARMOIRE" title="$l10n_fillType_armoire">
+            <pallet     filename="pallets/armoirePallet.xml" />
+        </fillType>
+        <fillType name="BARREL" title="$l10n_fillType_barrel">
+            <pallet     filename="pallets/barrelPallet.xml" />
+        </fillType>
+        <fillType name="BATHTUB" title="$l10n_fillType_bathtub">
+            <pallet     filename="pallets/bathtubPallet.xml" />
+        </fillType>
+        <fillType name="BIRDHOUSE" title="$l10n_fillType_birdHouse">
+            <pallet     filename="pallets/birdHousePallet.xml" />
+        </fillType>
+        <fillType name="BOWL" title="$l10n_fillType_bowl">
+            <pallet     filename="pallets/bowlsPallet.xml" />
+        </fillType>
+        <fillType name="BUCKET" title="$l10n_fillType_bucket">
+            <pallet     filename="pallets/bucketPallet.xml" />
+        </fillType>
+        <fillType name="CARTONROLL" title="$l10n_fillType_cartonRoll">
+            <pallet     filename="pallets/cartonRollPallet.xml" />
+        </fillType>
+        <fillType name="CATTREE" title="$l10n_fillType_catTree">
+            <pallet     filename="pallets/catTreePallet.xml" />
+        </fillType>
+        <fillType name="CHAIR" title="$l10n_fillType_chair">
+            <pallet     filename="pallets/chairPallet.xml" />
+        </fillType>
+        <fillType name="DOGHOUSE" title="$l10n_fillType_dogHouse">
+            <pallet     filename="pallets/dogHousePallet.xml" />
+        </fillType>
+        <fillType name="EASEL" title="$l10n_fillType_easel">
+            <pallet     filename="pallets/easelPallet.xml" />
+        </fillType>
+        <fillType name="FLOORTILES" title="$l10n_fillType_floorTiles">
+            <pallet     filename="pallets/floorTilesPallet.xml" />
+        </fillType>
+        <fillType name="METAL" title="$l10n_fillType_metal">
+            <pallet     filename="pallets/metalPallet.xml" />
+        </fillType>
+        <fillType name="PAPERROLL" title="$l10n_fillType_paperRoll">
+            <pallet     filename="pallets/paperRollPallet.xml" />
+        </fillType>
+        <fillType name="PEPPERGRINDER" title="$l10n_fillType_pepperGrinder">
+            <pallet     filename="pallets/pepperGrinderPallet.xml" />
+        </fillType>
+        <fillType name="PICTUREFRAME" title="$l10n_fillType_pictureFrame">
+            <pallet     filename="pallets/pictureFramePallet.xml" />
+        </fillType>
+        <fillType name="PLANKS" title="$l10n_fillType_planks">
+            <pallet     filename="pallets/planksPallet.xml" />
+        </fillType>
+        <fillType name="PREFABWALL" title="$l10n_fillType_prefabWall">
+            <pallet     filename="pallets/prefabWallPallet.xml" />
+        </fillType>
+        <fillType name="SHINGLE" title="$l10n_fillType_shingle">
+            <pallet     filename="pallets/shingleGenericPallet.xml" />
+        </fillType>
+        <fillType name="STAIRCASERAILING" title="$l10n_fillType_staircaseRailing">
+            <pallet     filename="pallets/staircaseRailingPallet.xml" />
+        </fillType>
+        <fillType name="STONE" title="$l10n_fillType_stone">
+            <pallet     filename="pallets/fillablePallet.xml" />
+        </fillType>
+        <fillType name="TABLE" title="$l10n_fillType_table">
+            <pallet     filename="pallets/tablePallet.xml" />
+        </fillType>
+        <fillType name="WOODBEAM" title="$l10n_fillType_woodBeam">
+            <pallet     filename="pallets/woodBeamPallet.xml" />
+        </fillType>
+        <fillType name="IRONORE" title="$l10n_fillType_ironOre">
+            <pallet     filename="pallets/fillablePallet.xml" />
+        </fillType>
+
+        <!-- premium DLC -->
+        <fillType name="POTATOCHIPS" title="$l10n_fillType_potatoChips">
+            <pallet     filename="pallets/potatoChipsPallet.xml" />
+        </fillType>
+        <fillType name="PRESERVEDCARROTS" title="$l10n_fillType_preservedFoodCarrots">
+            <pallet filename="pallets/preservedFoodCarrotsPallet.xml" />
+        </fillType>
+
+        <fillType name="PRESERVEDPARSNIP" title="$l10n_fillType_preservedFoodParsnip">
+            <pallet filename="pallets/preservedFoodParsnipPallet.xml" />
+        </fillType>
+
+        <fillType name="PRESERVEDBEETROOT" title="$l10n_fillType_preservedFoodBeetRoot">
+            <pallet filename="pallets/preservedFoodBeetRootPallet.xml" />
+        </fillType>
+
+        <fillType name="SOUPCANSMIXED" title="$l10n_fillType_soupCansMixed">
+            <pallet filename="pallets/soupCansPallet.xml" />
+        </fillType>
+
+        <fillType name="SOUPCANSCARROTS" title="$l10n_fillType_soupCansCarrots">
+            <pallet filename="pallets/soupCansPalletCarrots.xml" />
+        </fillType>
+
+        <fillType name="SOUPCANSPARSNIP" title="$l10n_fillType_soupCansParsnip">
+            <pallet filename="pallets/soupCansPalletParsnip.xml" />
+        </fillType>
+
+        <fillType name="SOUPCANSBEETROOT" title="$l10n_fillType_soupCansBeetroot">
+            <pallet filename="pallets/soupCansPalletBeetroot.xml" />
+        </fillType>
+
+        <fillType name="SOUPCANSPOTATO" title="$l10n_fillType_soupCansPotato">
+            <pallet filename="pallets/soupCansPalletPotato.xml" />
+        </fillType>
+	</fillTypes>
+</map>
